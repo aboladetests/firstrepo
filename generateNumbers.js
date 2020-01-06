@@ -10,7 +10,7 @@ document.write(randomNumbers());
 
 function randomNumbers() {
 
-    return Math.floor(Math.random() * (8888 - 888 + 1) + 888)
+    return Math.floor(Math.random() * (8888 - 8000 + 1) + 8000)
 }
 
 document.write(randomNumbers());
